@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=-s13C93-v_Q
 在Android Lollipop中使用Palette抽取Bitmap颜色                                 
 https://github.com/hehonghui/android-tech-frontier/blob/master/issue-25/%E5%9C%A8Android%20Lollipop%E4%B8%AD%E4%BD%BF%E7%94%A8Palette%E6%8A%BD%E5%8F%96Bitmap%E9%A2%9C%E8%89%B2.md
 
-Support Library Packages
+Support Library Packages                                 
 https://developer.android.com/topic/libraries/support-library/packages#v7-palette
                           
 預覽
