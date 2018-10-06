@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="212dp"
+        android:layout_height="300dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/icon_ff15"/>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="太空戰士15：王者之劍"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_view_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:ellipsize="end"
+        android:lines="3"
+        android:text="影片基於2016年電子角色扮演遊戲《最終幻想XV》的世界觀，構成新的水晶故事子系列的一部分。本片由野末武志執導，他曾是最終幻想CGI電影《最終幻想VII 降臨之子》（2005）的聯合導演。《最終幻想XV》總監田畑端擔任電影監製，長谷川隆任編劇，約翰·R·格雷厄姆負責作曲。"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"/>
+</LinearLayout>
